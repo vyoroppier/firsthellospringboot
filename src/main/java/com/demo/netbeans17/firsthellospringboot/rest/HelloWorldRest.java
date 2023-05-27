@@ -21,4 +21,8 @@ public class HelloWorldRest {
     public String hi() {
         return "Hi, " + new Date();
     }
+    
+    public String newMethod(){
+        return "newMethod";
+    }
 }
